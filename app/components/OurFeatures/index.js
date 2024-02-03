@@ -2,10 +2,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { FaPlus, FaMinus } from "react-icons/fa";
- 
-// import { FaPlus } from "react-icons/fa6";
-// import { IoRemoveOutline } from "react-icons/io5";
-
 
 const OurFeatures = () => {
   const [openAccordionIndex, setOpenAccordionIndex] = useState(null);

@@ -9,8 +9,8 @@ const Skyrocket: React.FC = () => {
           <h2 className="lg:text-5xl md:text-start text-center md:text-4xl text-3xl leading-[50px] text-white font-medium">
             Ready to Skyrocket Your Sales?
           </h2>
-          <button className="bg-green_300 text-white_500 mt-8 font-normal text-base rounded-3xl py-3 px-6">
-            SIGN UP TODAY!
+          <button className="bg-green_300 text-white_500 mt-8 font-normal text-base rounded-3xl py-3 px-6 uppercase">
+            SIGN UP TODAY! sign up today!
           </button>
         </div>
         <div className="overflow-hidden md:block hidden">

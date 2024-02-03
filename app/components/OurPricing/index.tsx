@@ -19,29 +19,29 @@ const OurPricing: React.FC = () => {
         <div className="w-[308px] min-h-[326px]	flex items-center justify-center flex-col gap-8 bg-white rounded-xl text-center px-8">
           <div className="flex border border-green_100 rounded-xl px-4 gap-2 items-center justify-center">
             <Image src="/assets/basic-plan.svg" loading='lazy' alt='Basix-Plan' height={15} width={15}/>
-            <h4 className="text-green_200 text-base font-normal">Basic Plan</h4>
+            <h3 className="text-green_200 text-base font-normal">Basic Plan</h3>
           </div>
           <h3 className="text-black_100 text-5xl">$Price</h3>
           <h4 className="text-white_300 text-base font-normal">Ideal for small teams</h4>
-          <button className="border border-green_100 text-green font-medium text-lg rounded-3xl py-1.5 px-6 hover:bg-green hover:text-white">SELECT</button>
+          <button className="border border-green_100 text-green font-medium text-lg rounded-3xl py-1.5 px-6 hover:bg-green hover:text-white uppercase">select</button>
         </div>
         <div className="w-[308px] min-h-[326px] flex items-center justify-center flex-col gap-8 bg-white rounded-xl text-center px-8">
           <div className="flex border border-green_100 rounded-xl px-4 gap-2 items-center justify-center">
             <Image src="/assets/pro-plan.svg" loading='lazy' alt='Pro-Plan' height={15} width={15}/>
-            <h4 className="text-green_200 text-base font-normal">Pro Plan</h4>
+            <h3 className="text-green_200 text-base font-normal">Pro Plan</h3>
           </div>
           <h3 className="text-black_100 text-5xl">$Price</h3>
           <h4 className="text-white_300 text-base font-normal">Advanced features for growing businesses</h4>
-          <button className="border border-green_100 text-green font-medium text-lg rounded-3xl py-1.5 px-6 hover:bg-green hover:text-white">SELECT</button>
+          <button className="border border-green_100 text-green font-medium text-lg rounded-3xl py-1.5 px-6 hover:bg-green hover:text-white uppercase">select</button>
         </div>
         <div className="w-[308px] min-h-[326px] flex items-center justify-center flex-col gap-8 bg-white rounded-xl text-center px-8">
           <div className="flex border border-green_100 rounded-xl px-4 gap-2 items-center justify-center">
             <Image src="/assets/enterprise-plan.svg" loading='lazy' alt='Enterprise-Plan' height={15} width={15}/>
-            <h4 className="text-green_200 text-base font-normal">Enterprise Plan</h4>
+            <h3 className="text-green_200 text-base font-normal">Enterprise Plan</h3>
           </div>
           <h3 className="text-black_100 text-5xl">$Price</h3>
           <h4 className="text-white_300 text-base font-normal">Custom solutions for large organizations</h4>
-          <button className="border border-green_100 text-green font-medium text-lg rounded-3xl py-1.5 px-6 hover:bg-green hover:text-white">SELECT</button>
+          <button className="border border-green_100 text-green font-medium text-lg rounded-3xl py-1.5 px-6 hover:bg-green hover:text-white uppercase">select</button>
         </div>
       </div>
     </div>
