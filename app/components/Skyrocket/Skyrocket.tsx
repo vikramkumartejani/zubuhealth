@@ -10,7 +10,7 @@ const Skyrocket: React.FC = () => {
             Ready to Skyrocket Your Sales?
           </h2>
           <button className="bg-green_300 text-white_500 mt-8 font-normal text-base rounded-3xl py-3 px-6 uppercase">
-            SIGN UP TODAY! sign up today!
+            sign up today!
           </button>
         </div>
         <div className="overflow-hidden md:block hidden">
