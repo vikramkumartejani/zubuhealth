@@ -18,19 +18,19 @@ const KeyBenefits: React.FC = () => {
         </h3>
         <ul className="text-white text-xl font-normal leading-10 grid sm:grid-cols-2 grid-cols-1 gap-6">
           <li className="flex gap-3 place-items-baseline">
-            <Image src="/assets/right-logo.svg" alt="logo" width={21} height={15}/>Enhanced Agent Efficiency
+            <Image src="/assets/right-logo.svg" alt="logo" loading='lazy' width={21} height={15}/>Enhanced Agent Efficiency
           </li>
           <li className="flex gap-3 place-items-baseline">
-            <Image src="/assets/right-logo.svg" alt="logo" width={21} height={15}/>Real-time Data Insights
+            <Image src="/assets/right-logo.svg" alt="logo" loading='lazy' width={21} height={15}/>Real-time Data Insights
           </li>
           <li className="flex gap-3 place-items-baseline">
-            <Image src="/assets/right-logo.svg" alt="logo" width={21} height={15}/>Higher Conversion Rates
+            <Image src="/assets/right-logo.svg" alt="logo" loading='lazy' width={21} height={15}/>Higher Conversion Rates
           </li>
           <li className="flex gap-3 place-items-baseline">
-            <Image src="/assets/right-logo.svg" alt="logo" width={21} height={15}/>Reduced Operational Costs
+            <Image src="/assets/right-logo.svg" alt="logo" loading='lazy' width={21} height={15}/>Reduced Operational Costs
           </li>
           <li className="flex gap-3 place-items-baseline">
-            <Image src="/assets/right-logo.svg" alt="logo" width={21} height={15}/>Personalized Customer Interactions
+            <Image src="/assets/right-logo.svg" alt="logo" loading='lazy' width={21} height={15}/>Personalized Customer Interactions
           </li>
         </ul>
       </div>
@@ -40,8 +40,8 @@ const KeyBenefits: React.FC = () => {
           alt="Image"
           width={408}
           height={300}
-          className=""
-        />
+          loading='lazy' 
+         />
       </div>
     </div>
   );

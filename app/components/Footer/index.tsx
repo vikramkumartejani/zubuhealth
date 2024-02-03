@@ -24,6 +24,7 @@ const Footer: React.FC = () => {
           alt="Logo"
           width={100}
           height={100}
+          loading='lazy' 
           className="w-full"
         />
       </div>

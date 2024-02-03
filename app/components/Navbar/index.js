@@ -13,7 +13,7 @@ const Navbar= () => {
   return (
     <div className='bg-dark_green md:p-10 p-4 w-full flex items-center justify-between gap-14'>
         <div className='max-w-48 w-full'>
-            <Image src='/assets/Logo.svg' alt='Logo' width={100} height={100} className='w-full' />
+            <Image src='/assets/Logo.svg' alt='Logo' loading='lazy' width={100} height={100} className='w-full' />
         </div>
         <div className='hidden lg:flex items-center justify-between gap-2 w-full'> 
             <ul className='flex items-center gap-8'>
@@ -38,6 +38,10 @@ const Navbar= () => {
           <li className='text-white text-base	font-medium cursor-pointer'>SUPPORT</li>
           <li className='text-white text-base	font-medium cursor-pointer'>LOGIN</li>
         </ul>
+        <div className='flex items-center gap-4'>
+          <button className='border border-white rounded-3xl text-base font-normal py-2 px-5 text-white'><a href="/signup">SIGN UP</a></button>
+          <button className='bg-green rounded-3xl text-base font-normal py-2 px-5 text-dark_green_100'>GET STARTED</button>
+        </div>
       </div>
       )}
     </div>

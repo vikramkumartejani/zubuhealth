@@ -65,7 +65,7 @@ const OurFeatures = () => {
         {/* Image */}
         <div className="flex-1 bg-white_900 p-10">
           <div className="flex justify-center items-center ">
-            <Image src='/assets/our-features.svg' alt='Image' width={520} height={270} className='shadow-md' />
+            <Image src='/assets/our-features.svg' alt='Image' loading='lazy' width={520} height={270} className='shadow-md' />
           </div>
         </div>
         {/* Accordion */}
@@ -79,7 +79,7 @@ const OurFeatures = () => {
           >
             <div>
               <div className="flex gap-4" onClick={() => toggleAccordion(index)}>
-                <Image src={item.image} alt="image" width={22} height={22} />
+                <Image src={item.image} alt="image" loading='lazy' width={22} height={22} />
                 <h3 className="md:text-xl text-base">{item.question}</h3>
               </div>
               {openAccordionIndex === index && (

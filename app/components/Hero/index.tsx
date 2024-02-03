@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             <button className='border border-white rounded-3xl text-base font-medium py-2.5 px-5 text-white'>GET STARTED IN MINUTES</button>
         </div>
            <div className='relative'>
-             <Image src='/assets/Hero.svg' alt='Image' width={1024} height={479} className='max-w-5xl w-full h-auto m-auto'/>
+             <Image src='/assets/Hero.svg' alt='Image' width={1024} height={479} loading='lazy' decoding="async" data-nimg="1" className='max-w-5xl w-full h-auto m-auto'/>
           </div>
      </div>
   )

@@ -19,6 +19,7 @@ const Skyrocket: React.FC = () => {
             alt="Image"
             width={620}
             height={450}
+            loading='lazy' 
             className="h-[300px] "
           />
         </div>

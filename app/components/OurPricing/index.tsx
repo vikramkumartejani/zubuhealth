@@ -18,7 +18,7 @@ const OurPricing: React.FC = () => {
       <div className="flex lg:flex-nowrap flex-wrap lg:justify-start justify-center items-center gap-6 mt-12">
         <div className="w-[308px] min-h-[326px]	flex items-center justify-center flex-col gap-8 bg-white rounded-xl text-center px-8">
           <div className="flex border border-green_100 rounded-xl px-4 gap-2 items-center justify-center">
-            <Image src="/assets/basic-plan.svg" alt='Basix-Plan' height={15} width={15}/>
+            <Image src="/assets/basic-plan.svg" loading='lazy' alt='Basix-Plan' height={15} width={15}/>
             <h4 className="text-green_200 text-base font-normal">Basic Plan</h4>
           </div>
           <h3 className="text-black_100 text-5xl">$Price</h3>
@@ -27,7 +27,7 @@ const OurPricing: React.FC = () => {
         </div>
         <div className="w-[308px] min-h-[326px] flex items-center justify-center flex-col gap-8 bg-white rounded-xl text-center px-8">
           <div className="flex border border-green_100 rounded-xl px-4 gap-2 items-center justify-center">
-            <Image src="/assets/pro-plan.svg" alt='Pro-Plan' height={15} width={15}/>
+            <Image src="/assets/pro-plan.svg" loading='lazy' alt='Pro-Plan' height={15} width={15}/>
             <h4 className="text-green_200 text-base font-normal">Pro Plan</h4>
           </div>
           <h3 className="text-black_100 text-5xl">$Price</h3>
@@ -36,7 +36,7 @@ const OurPricing: React.FC = () => {
         </div>
         <div className="w-[308px] min-h-[326px] flex items-center justify-center flex-col gap-8 bg-white rounded-xl text-center px-8">
           <div className="flex border border-green_100 rounded-xl px-4 gap-2 items-center justify-center">
-            <Image src="/assets/enterprise-plan.svg" alt='Enterprise-Plan' height={15} width={15}/>
+            <Image src="/assets/enterprise-plan.svg" loading='lazy' alt='Enterprise-Plan' height={15} width={15}/>
             <h4 className="text-green_200 text-base font-normal">Enterprise Plan</h4>
           </div>
           <h3 className="text-black_100 text-5xl">$Price</h3>

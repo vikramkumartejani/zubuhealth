@@ -53,15 +53,16 @@ const Testimonials: React.FC = () => {
             alt="Image"
             width={373}
             height={273}
+            loading='lazy'
             className='w-[373px] h-full'
           />
         </div>
         <div className="">
       <div className="flex gap-4">
-      <Image src='/assets/profile.png' alt='Profile' width={48} height={48} />
+      <Image src='/assets/profile.png' alt='Profile' loading='lazy' width={48} height={48} />
         <div className="flex gap-1">
-            <Image src='/assets/colon.svg' alt='Colon' width={15} height={26} />
-            <Image src='/assets/colon.svg' alt='Colon' width={15} height={26} />
+            <Image src='/assets/colon.svg' alt='Colon' loading='lazy' width={15} height={26} />
+            <Image src='/assets/colon.svg' alt='Colon' loading='lazy' width={15} height={26} />
         </div>
       </div>
       <h2 className="mt-6 sm:text-3xl text-2xl font-normal tracking-[-1px] text-black_100">
