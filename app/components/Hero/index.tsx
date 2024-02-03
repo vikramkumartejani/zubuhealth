@@ -22,10 +22,8 @@ const Hero: React.FC = () => {
         <button className='bg-green rounded-3xl text-base font-medium py-2.5 px-5 text-dark_green_100 uppercase'>sign up for free trial</button>
         <button className='border border-white rounded-3xl text-base font-medium py-2.5 px-5 text-white uppercase'>get started in minutes</button>
       </div>
-      <div className='relative'>
-        <Image src='/assets/Hero.svg' alt='Image' width={1024} height={479} loading='lazy' decoding="async" data-nimg="1" className='max-w-5xl w-full h-auto m-auto' />
-      </div>
-    </div>
+         <Image src='/assets/Hero.svg' alt='Image' width={1024} height={479} loading='lazy' className='max-w-5xl w-full h-auto m-auto' />
+     </div>
   )
 }
 

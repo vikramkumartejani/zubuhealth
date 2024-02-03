@@ -17,10 +17,10 @@ const Navbar = () => {
       </div>
       <div className='hidden lg:flex items-center justify-between gap-2 w-full'>
         <ul className='flex items-center gap-8'>
-          <li className='text-white text-base	font-medium cursor-pointer'>FEATURES</li>
-          <li className='text-white text-base	font-medium cursor-pointer'>PRICING</li>
-          <li className='text-white text-base	font-medium cursor-pointer'>SUPPORT</li>
-          <li className='text-white text-base	font-medium cursor-pointer'>LOGIN</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>features</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>pricing</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>support</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>login</li>
         </ul>
         <div className='flex items-center gap-4'>
           <button className='border border-white rounded-3xl text-base font-normal py-2 px-5 text-white uppercase'><a href="/signup">sign up</a></button>
@@ -32,15 +32,15 @@ const Navbar = () => {
       </button>
       {isMenuOpen && (
         <div className='lg:hidden block fixed h-[100vh] w-[80%] left-0 pt-10 top-0 bg-green z-50'>
-          <ul className='flex flex-col items-center gap-4'>
-            <li className='text-white text-base	font-medium cursor-pointer uppercase'>FEATURES</li>
-            <li className='text-white text-base	font-medium cursor-pointer uppercase'>PRICING</li>
-            <li className='text-white text-base	font-medium cursor-pointer uppercase'>SUPPORT</li>
-            <li className='text-white text-base	font-medium cursor-pointer uppercase'>LOGIN</li>
-          </ul>
-          <div className='flex items-center gap-4'>
+          <ul className='flex flex-col items-center gap-8'>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>features</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>pricing</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>support</li>
+          <li className='text-white text-base	font-medium cursor-pointer uppercase'>login</li>
+        </ul>
+          <div className='flex items-center flex-col mt-4 gap-4'>
             <button className='border border-white rounded-3xl text-base font-normal py-2 px-5 text-white uppercase'><a href="/signup">sign up</a></button>
-            <button className='bg-green rounded-3xl text-base font-normal py-2 px-5 text-dark_green_100 uppercase'>get started</button>
+            <button className='border border-white rounded-3xl text-base font-normal py-2 px-5 text-white uppercase'>get started</button>
           </div>
         </div>
       )}

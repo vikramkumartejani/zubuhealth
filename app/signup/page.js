@@ -20,8 +20,8 @@ const Signup = () => {
       <h2 className="md:text-5xl text-3xl text-center text-white w-full max-w-[650px] m-auto">
         Seamless Sign-Up, Exceptional Service
       </h2>
-       <div className="relative mx-10">
-       <div className="bg-white_1000 py-14 px-6 sm:px-10 mt-16 w-full max-w-[1200px] mx-auto ">
+       <div className="relative mx-3">
+       <div className="bg-white_1000 py-14 px-[.9rem] sm:px-10 mt-16 w-full sm:max-w-[1200px] max-w-full mx-auto ">
        <div className="flex flex-col md:flex-row justify-start gap-8 ">
         <div className="flex-1 flex gap-6 flex-col">
           <h2 className="text-white text-lg font-medium">Your Information <span className="text-white_1100"> *</span></h2>
